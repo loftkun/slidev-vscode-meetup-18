@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.28.2",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "name": "slidev-vscode-meetup-18",
+  "devDependencies": {
+    "@iconify-json/logos": "^1.0.4",
+    "@iconify-json/twemoji": "^1.0.2"
+  }
+}
