@@ -129,11 +129,13 @@ layout: cover
 background: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
-## 2. Markdownでスライドを書く
+## 1. Markdownでスライドを書こう
+
+デモも交えてお送りします
 
 ---
 
-### 2.1. Markdownでスライドを書くには
+### 1.1. Markdownでスライドを書くには
 
 <br>
 
@@ -155,7 +157,7 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 
 ---
 
-### 2.2. Slidevとは
+### 1.2. Slidevとは
 
 Markdownでスライドを記述できるエンジニア向けプレゼンテーションツールです
 
@@ -171,7 +173,7 @@ Markdownでスライドを記述できるエンジニア向けプレゼンテー
 
 ---
 
-### 2.3. Slidevの導入
+### 1.3. Slidevの導入
 
 <div class="grid grid-cols-[50%,50%] gap-4"><div>
 
@@ -216,7 +218,7 @@ $ npm init slidev@latest
 
 ---
 
-### 2.4. サンプルMarkdownとLive Demo
+### 1.4. サンプルMarkdownとLive Demo
 
 |                 |                                                                                |                               |
 | :-------------: | :----------------------------------------------------------------------------- | :---------------------------- |
@@ -235,7 +237,7 @@ $ npm init slidev@latest
 
 ---
 
-### 2.5. おすすめポイント1: レイアウトが柔軟
+### 1.5. おすすめポイント1: レイアウトが柔軟
 
 Gridレイアウトによりコンテンツを柔軟に配置できます
 
@@ -279,7 +281,7 @@ Gridレイアウトによりコンテンツを柔軟に配置できます
 
 ---
 
-### 2.6. おすすめポイント2: コードブロックのシンタックスハイライトと行番号表示ができる
+### 1.6. おすすめポイント2: コードブロックのシンタックスハイライトと行番号表示ができる
 
 ソースコードやコマンドの実行結果などのコードブロックを綺麗に表示できます
 
@@ -319,7 +321,7 @@ with open(test_path, "a", encoding="utf-8") as f:
 
 ---
 
-### 2.7. おすすめポイント3: 拡張機能もあります ( [antfu.slidev](https://marketplace.visualstudio.com/items?itemName=antfu.slidev) )
+### 1.7. おすすめポイント3: 拡張機能もあります ( [antfu.slidev](https://marketplace.visualstudio.com/items?itemName=antfu.slidev) )
 
 <br>
 
@@ -339,15 +341,31 @@ with open(test_path, "a", encoding="utf-8") as f:
 </div></div>
 
 ---
+
+### 1.8 デモ
+
+デモします。
+
+- xxxxをする
+- xxxxをする
+- xxxxをする
+- xxxxをする
+- xxxxをする
+- xxxxをする
+- xxxxをする
+
+---
 layout: cover
 background: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
-## 3. Markdownで書籍( epub, mobi )を書く
+## 2. Markdownで電子書籍( epub, mobi )を書こう
+
+デモも交えてお送りします
 
 ---
 
-### 3.1. Markdownで書籍( epub, mobi )を書くには
+### 2.1. Markdownで電子書籍( epub, mobi )を書くには
 
 - 書籍の文章をMarkdownで書き、ツールでMarkdownを電子書籍のフォーマットに変換します
   - 画像の挿入や表もMarkdown記法で書くことができます
@@ -365,7 +383,7 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 
 ---
 
-### 3.2. サンプル
+### 2.2. サンプル
 
 <style>
 .language-bash span.line { /* bashのコード */
@@ -394,7 +412,7 @@ $ pandoc --from markdown --to epub3 book.md --output book.epub --toc --epub-cove
 
 ---
 
-### 3.3. Kindleでも読めます
+### 2.3. Kindleでも読めます
 
 [Kindle Previewer](https://kdp.amazon.co.jp/ja_JP/help/topic/G202131170) を使うとepubをmobi形式に変換でき、Kindleでも閲覧できます
 
@@ -414,7 +432,19 @@ Kindle Paperwhite で表示した例
 
 ---
 
-## 4. まとめ
+### 2.4. お楽しみのデモ
+
+- xxxxをする
+- xxxxをする
+- xxxxをする
+- xxxxをする
+- xxxxをする
+
+---
+
+## 3. まとめ
+
+TODO: 書く
 
 <br>
 
