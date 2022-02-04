@@ -84,45 +84,49 @@ Markdownでスライドや電子書籍を書くする手順をご紹介してい
 [Qiita | Visual Studio Code Advent Calendar 2021](https://qiita.com/loftkun/items/414ed6c7789b49ed0c5e)
 
 [<img src="/qiita.jpg"/>](https://qiita.com/loftkun/items/414ed6c7789b49ed0c5e)
-こちらの記事はQiitaトレンド1位になりました。
+こちらの記事はQiitaトレンド1位になりました！
 
 </div></div>
-
-**今回は、実際にMarkdownでスライドや電子書籍を書くするサンプルとデモを交えてご紹介したいと思います。**
+今回は、実際にMarkdownでスライドや電子書籍を書くするサンプルとデモを交えてご紹介したいと思います！
 
 ---
 
 <h2>Agenda</h2>
 
-TODO: 後で書く
-
 <br>
 <br>
 
-<h3>1. MarkdownのHappy Extensions!</h3>
+<h3>1. Markdownでスライドを書こう</h3>
+
+<div class="grid grid-cols-[3%,97%] gap-4"><div>
 
 <br>
 
-- VSCodeでMarkdownを書く際に便利な拡張機能を紹介します
-
-<br>
-<br>
-
-<h3>2. Markdownでスライドを書く</h3>
+</div><div>
 
 <br>
 
-- Slidevを活用して、Markdownでスライドを書く方法やテクニックを紹介します
-- この発表スライドもMarkdownで書いてSlidevでスライド化したものになります
+- Slidevのご紹介 ( この発表スライドもMarkdownで書いてSlidevでスライドとして表示しています )
+- サンプルコードとデモ
 
-<br>
-<br>
-
-<h3>3. Markdownで書籍( epub, mobi )を書く</h3>
+</div></div>
 
 <br>
 
-- Pandocを活用して、Markdownで書籍( epub, mobi )を書く方法やテクニックを紹介します
+<h3>2. Markdownで電子書籍( epub, mobi )を書こう</h3>
+
+<div class="grid grid-cols-[3%,97%] gap-4"><div>
+
+<br>
+
+</div><div>
+
+<br>
+
+- Pandocのご紹介
+- サンプルコードとデモ
+
+</div></div>
 
 ---
 layout: cover
@@ -206,7 +210,7 @@ $ npm init slidev@latest
 
 </div><div>
 
-- これだけでOK ( 要 `Node.js >=14.0` )
+- これだけでOK ( 要 `Node.js >=14.0` ) 
 - ブラウザで閲覧できます( `localhost:3030` )
 - あとは slides.md を執筆していくだけ！
 - プレビューにも動的に反映されます
@@ -318,6 +322,7 @@ with open(test_path, "a", encoding="utf-8") as f:
 - 着目して欲しい行を強調できます ( 上記の例では 4行目以降 )
 - 画像ではなくテキストなので、文字列のコピーや検索も可能です
 - 上記のように、Gridレイアウトを使うことで左右で比較、のような表現も可能です
+
 
 ---
 
@@ -438,7 +443,8 @@ Kindle Paperwhite で表示した例
 - xxxxをする
 - xxxxをする
 - xxxxをする
-- xxxxをする
+- xxxxをブラウザで書き換えたぞ
+
 
 ---
 
