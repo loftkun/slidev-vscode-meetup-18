@@ -36,12 +36,12 @@ class: text-center
 - IT Specialist at IBM ( ex Yahoo! )
   - Linux OS ( RHEL, etc ), OSS ( OpenShift, etc )
 - Python lecturer at Kyushu University Lab ( in 2021 )
+
 - Staff of VS Code Conference Japan 2021
 
 - 🎹 Piano ( YouTuber )
 - ☗ 観る将＆指す将
 - 🍶 ウィスキー
-- 🚲 有酸素運動
 ```
 
 </div></div>
@@ -77,7 +77,7 @@ loftkunと申します
 
 <h2>ご参考</h2>
 
-今回の発表に関連するアウトプットとして、以下の登壇やQiita記事があります。<br>
+今日の発表に関連するアウトプットとして、以下の登壇やQiita記事があります。<br>
 VSCodeでMarkdownを効率よく書く方法や、Markdownでスライドや電子書籍を書く手順をご紹介しています。
 
 <div class="grid grid-cols-[50%,50%] gap-4"><div>
@@ -97,7 +97,11 @@ VSCodeでMarkdownを効率よく書く方法や、Markdownでスライドや電�
 今日は、実際にMarkdownでスライドや電子書籍を書く様子をサンプルとデモを交えてご紹介したいと思います！
 
 <!--
-YouTubeの再生開始と止める
+VSCodeConJP 2021 での登壇やQiitaのVSCodeアドベントカレンダーに投稿した記事があります。
+
+今日は取り上げない内容として、VSCodeでMarkdownを効率よく書くための拡張機能のご紹介をしていますので、ぜひこちらもご参照いただきますと幸いです。
+
+今日はXXXXXXXXX
 -->
 
 ---
@@ -138,29 +142,7 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 
 ---
 
-### 1.1. Markdownでスライドを書くには
-
-<br>
-
-- スライドの文章をMarkdownで書き、ツールでMarkdownをスライドとして表示させます
-  - スライドとしてのデザインや機能はツールに依存します
-  - Markdwon側でも多少のレイアウトの指定は可能です
-
-<br>
-
-- 発表の内容(文章)を書くことに専念し、短時間でまとまった量のアウトプットを出したい場合におすすめです
-  - 私の場合、本業の合間に副業のPythonの講義資料を作るための目的に合っていました
-
-<br>
-
-- 様々なツールがありますが、今回は、Slidevを紹介したいと思います！
-  - [reveal.js](https://revealjs.com/)
-  - [Marp](https://marp.app/)
-  - [Slidev](https://sli.dev/)
-
----
-
-### 1.2. Slidevとは
+### 1.1. Slidevとは
 
 Markdownでスライドを記述できるエンジニア向けプレゼンテーションツールです
 
@@ -176,7 +158,7 @@ Markdownでスライドを記述できるエンジニア向けプレゼンテー
 
 ---
 
-### 1.3. Slidevの導入
+### 1.2. Slidevの導入
 
 <div class="grid grid-cols-[50%,50%] gap-4"><div>
 
@@ -224,7 +206,7 @@ $ npm init slidev@latest
 
 ---
 
-### 1.4. サンプルMarkdownとLive Demo
+### 1.3. サンプルMarkdownとLive Demo
 
 |                 |                                                                                |                               |
 | :-------------: | :----------------------------------------------------------------------------- | :---------------------------- |
@@ -242,6 +224,8 @@ $ npm init slidev@latest
 </div></div>
 
 <!--
+ここはあっさり飛ばす
+
 Markdownでよく使うと思われる記法のサンプルをこちらのリポジトリに用意しております。
 
 ライブデモも用意しておりますので、Markdownの記述内容とSlidevでの見栄えを見比べていただくこともできます。
@@ -251,7 +235,7 @@ Markdownでよく使うと思われる記法のサンプルをこちらのリポ
 
 ---
 
-### 1.5. おすすめポイント1: レイアウトが柔軟
+### 1.4. おすすめポイント1: レイアウトが柔軟
 
 Gridレイアウトによりコンテンツを柔軟に配置できます
 
@@ -299,7 +283,7 @@ Gridレイアウトによりコンテンツを柔軟に配置できます
 
 ---
 
-### 1.6. おすすめポイント2: コードブロックのシンタックスハイライトと行番号表示ができる
+### 1.5. おすすめポイント2: コードブロックのシンタックスハイライトと行番号表示ができる
 
 ソースコードやコマンドの実行結果などのコードブロックを綺麗に表示できます
 
@@ -345,7 +329,7 @@ with open(test_path, "a", encoding="utf-8") as f:
 
 ---
 
-### 1.7. おすすめポイント3: 拡張機能もあります ( [antfu.slidev](https://marketplace.visualstudio.com/items?itemName=antfu.slidev) )
+### 1.6. おすすめポイント3: 拡張機能もあります ( [antfu.slidev](https://marketplace.visualstudio.com/items?itemName=antfu.slidev) )
 
 <br>
 
@@ -374,7 +358,7 @@ with open(test_path, "a", encoding="utf-8") as f:
 
 ---
 
-### 1.8 デモ : Markdownでスライドを書こう
+### 1.7 デモ : Markdownでスライドを書こう
 
 <br>
 
@@ -398,21 +382,17 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 
 ---
 
-### 2.1. Markdownで電子書籍( epub, mobi )を書くには
+### 2.1. Pandocについて
 
-- 書籍の文章をMarkdownで書き、ツールでMarkdownを電子書籍のフォーマットに変換します
-  - 画像の挿入や表もMarkdown記法で書くことができます
+- [Pandoc](https://pandoc.org/) は 様々なドキュメントのフォーマット変換ができるコンバーターです
+  - `pandoc is your swiss-army knife`
 
-- 私はPandocというツールを使用しています
-  - 様々なドキュメントのフォーマット変換ができるコンバーターです
-
-- PandocでMarkdownから変換できるフォーマットの例 :
+- Markdownから変換できるフォーマット例
   - html
   - pdf
   - pptx
   - epub
   - などなど、様々なフォーマットに対応しています
-    - 詳細は [pandoc.org](https://pandoc.org/) をご参照ください
 
 ---
 
@@ -503,7 +483,7 @@ Kindleの実機の方に送り込みますと表示されますので、VSCode�
 
 <br>
 
-VSCodeのMarkdownの編集支援機能も活用しつつ、SlidevやPandocなどのツールを組み合わせることで、Markdownの活用範囲が広がります<br>
+VSCodeのMarkdownの編集支援機能も活用しつつ、SlidevやPandocなどのツールを組み合わせることで、Markdownの活用範囲が広がります！<br>
 
 今回の発表が、VSCodeでMarkdown記法で様々な文書を書く際のご参考となりましたら幸いです。
 
