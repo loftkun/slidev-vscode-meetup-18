@@ -1,11 +1,24 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# slidev-vscode-meetup-18
 
-To start the slide show:
+## live demo
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
+SPA on [Netlify](https://loftkun-slidev-vscode-meetup-18.netlify.app/)
 
-Edit the [slides.md](./slides.md) to see the changes.
+## usage
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+```bash
+git clone https://github.com/loftkun/slidev-vscode-meetup-18.git
+cd slidev-vscode-meetup-18
+npm install
+npm run dev -- slides.md
+```
+
+Visit `http://localhost:3030/` and confirm the slides showed as SPA.
+
+## publish SPA
+
+```bash
+# For GitHub Pages, require setting assets path on server with "--base" param.
+npm run build -- --base slidev-vscode-meetup-18/dist/
+ls -Fla dist/
+```
