@@ -1,7 +1,7 @@
 ---
 theme: seriph
 title: Markdownでスライドや書籍も書いちゃおう！
-download: true
+download: false
 lineNumbers: true
 background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
@@ -405,6 +405,8 @@ with open(test_path, "a", encoding="utf-8") as f:
 
 <iframe width="420" height="225" src="https://www.youtube.com/embed/e5-1SVKKHv4?start=3485" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+アーカイブ : https://www.youtube.com/embed/e5-1SVKKHv4?start=3485
+
 </div></div>
 
 ---
@@ -511,6 +513,8 @@ Kindleで読める形式に変換するにはKindle Previeerというツール�
 </div><div>
 
 <iframe width="420" height="225" src="https://www.youtube.com/embed/e5-1SVKKHv4?start=4240" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+アーカイブ : https://www.youtube.com/embed/e5-1SVKKHv4?start=4240
 
 </div></div>
 
